@@ -23,7 +23,7 @@ const btnSlider = document.querySelectorAll(".btnSlider");
 const indicators = document.querySelectorAll(".slider__indicator");
 let currentIndex = 0;
 const amountSlides = document.querySelectorAll(".slider__item").length;
-const a = document.querySelectorAll(".slider__item");
+
 btnSlider.forEach((btn) => {
   btn.addEventListener("click", () => {
     if (btn.textContent === "Next") {
