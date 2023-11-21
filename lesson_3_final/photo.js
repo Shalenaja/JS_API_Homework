@@ -75,11 +75,7 @@ function showImg(container, array) {
         button.addEventListener("click", (e) => {
           e.preventDefault();
           e.target.closest("div").style.borderStyle = "solid";
-          e.target.closest("div").style.borderColor = "pink";
-          const a = e.target.closest('div');
-          console.log(a);
-          const b = a.div
-          console.log(b);
+          e.target.closest("div").style.borderColor = "pink";        
         });
       });
      })
